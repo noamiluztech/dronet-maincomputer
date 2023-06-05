@@ -9,7 +9,7 @@ from log import configure_logger
 
 if __name__ == "__main__":
     # set local machine IP
-    host = 'null' # need to edit
+    host = '0.0.0.0' # need to edit
 
     # Configure the logger with the file handler
     logger, log_file = configure_logger()
